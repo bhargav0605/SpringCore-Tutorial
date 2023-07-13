@@ -16,7 +16,7 @@ public class App
     	 * ApplicationContext (Extends BeanFactory)(Inhanced)
     	 */
     	ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
-        Vehicle obj = (Vehicle) context.getBean("vehicle");
+        Vehicle obj = (Vehicle) context.getBean("bike");
         obj.drive();
     }
 }
